@@ -16,7 +16,7 @@ class Program
         //Console.ReadLine();
 
         var operatorObject = new Operation();
-        var result = operatorObject.Add(v1:"one", 2);                        //pull from third method
+        var result = operatorObject.Add("2");                        //pull from third method
         Console.WriteLine(result);
         Console.ReadLine();
     }

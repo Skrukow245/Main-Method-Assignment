@@ -12,9 +12,10 @@ public class Operation
     {
         return data + value;
     }
-    internal object Add(string v1, int v2)
+    public int Add(string input)
     {
-        return v1 + v2;
+        int stringResult = Convert.ToInt32(input) + 5;
+        return stringResult;
     }
 }
 
